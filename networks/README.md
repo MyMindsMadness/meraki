@@ -1,6 +1,6 @@
 # Networks 
 
-The webhooks offer 3 different funtions
+The Networks Tool offer 3 different funtions
 
 - networks_get.py will retrieve all organisation network names, IDs, Products and TimeZone and print to a nice table
 - networks_create.py will create a new network within an organisation
