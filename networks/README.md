@@ -1,4 +1,4 @@
-# Webhooks 
+# Networks 
 
 The webhooks offer 3 different funtions
 
