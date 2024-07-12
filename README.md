@@ -14,6 +14,7 @@ To achive this. complete the following commands
     git clone https://github.com/MyMindsMadness/meraki.git
     python3 -m venv venv
     touch venv/.env
+    echo MERAKI_API_KEY="your_api_key" >> venv/.env 
     source venv/bin/active
     pip install -r requirements.txt
 
