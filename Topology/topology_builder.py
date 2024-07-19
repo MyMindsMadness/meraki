@@ -73,7 +73,7 @@ def other_node_prebuilder(node_info):
     derived_id_list.append(onpb_label)
     node_vis[node_info["derivedId"]] = onpb_label
     onpb_caption = f"Device MAC address: {onpb_device_mac}\n Is root:{onpb_root}"
-    onpb_icon = ""
+    onpb_icon = "Topology/Cisco-Meraki-Topology-Icons/unknown.png"
     meraki_node_builder(onpb_label, onpb_icon, onpb_caption)
 
 ### This function gathers all the information required to 
@@ -131,7 +131,7 @@ def meraki_wireless_client_prebuilder(mwcpb_serial, mwcpb_connected_node_label):
         mwcpb_ip = mwcpb_client["ip"]
         mwcpb_vlan = mwcpb_client["vlan"]
         mwcpb_caption = (f"Mac Address:{mwcpb_mac}\nIP Address:{mwcpb_ip}\nVLAN:{mwcpb_vlan}")
-        mwcpb_icon = "Topology/Cisco-Meraki-Topology-Icons/topology-icon-tablet-user-medium.png"
+        mwcpb_icon = "Topology/Cisco-Meraki-Topology-Icons/topology-icon-laptop-user-medium.png"
         meraki_client_builder(mwcpb_caption, mwcpb_icon, mwcpb_client_label, mwcpb_connected_node_label, mwcpb_ip)
         nodelist.append(mwcpb_mac)
 
