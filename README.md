@@ -42,16 +42,22 @@ Each tool will have an individual README.md file that details any additional inf
 
 ## Best place to start
 
+The Selector!
+
+![GIF](images/Selector.gif)
+
 It is best to run the "organisation selector" script 
 
     python3 organisations/organisation_selector.py
 
 This will ensure that the Organisation ID is loaded into the .env as "ORGANISATION_ID" which is used in many of the scripts. 
 
+There are several different "Selector" tools will help you to dynamically pull variables in to your environment for use.
+
 
 ## Topology Builder
 
 The topology builder is a great way to get a snap shot of your network. Including a visual of what devices are connected where within a 5 minute window. 
 
-![alt text]("images/Topology_sample.png") 
+![TOPOLOGY](images/Topology_sample.jpg) 
 
