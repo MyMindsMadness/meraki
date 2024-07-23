@@ -1,6 +1,8 @@
 
-# Meraki SDK Toolkit
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/MyMindsMadness/meraki)
+
+# Meraki SDK Toolkit
+
 A simple tool kit, including a PyVis topology builder. 
 This toolset using the Meraki python allowing Creation, deletion and information gathering about your meraki networks.
 Aimed at Service providers to quickly onboard new organisations and networks.  
