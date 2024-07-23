@@ -1,5 +1,6 @@
-# Meraki SDK Toolkit
 
+# Meraki SDK Toolkit
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/MyMindsMadness/meraki)
 A simple tool kit, including a PyVis topology builder. 
 This toolset using the Meraki python allowing Creation, deletion and information gathering about your meraki networks.
 Aimed at Service providers to quickly onboard new organisations and networks.  
@@ -60,4 +61,3 @@ There are several different "Selector" tools will help you to dynamically pull v
 The topology builder is a great way to get a snap shot of your network. Including a visual of what devices are connected where within a 5 minute window. 
 
 ![TOPOLOGY](images/Topology_sample.jpg) 
-
